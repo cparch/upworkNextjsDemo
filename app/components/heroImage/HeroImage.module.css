@@ -1,0 +1,27 @@
+.mask-fade {
+  -webkit-mask-image: linear-gradient(to top, transparent, black 20%, black 80%, transparent);
+  mask-image: linear-gradient(to top, transparent, black 20%, black 80%, transparent);
+}
+
+.container{
+  height: 101vw;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  height: 101vw;
+  border: 1px solid red;
+}
+
+.sticky-child {
+  position: sticky;
+  top: 0;
+  height: auto;
+}
+
+.image {
+    position: sticky;
+    top: 0;
+  }
