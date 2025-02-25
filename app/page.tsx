@@ -3,13 +3,27 @@ import styles from "./page.module.css";
 import  HeroImage  from "./components/heroImage/HeroImage" 
 import ActionImage from "./components/actionImage/ActionImage"
 import CopyBox from "./components/copyBox/CopyBox";
+// import { Roboto } from '@next/font/google'
+import MyButton from "./components/button/Button";
 
+
+// const roboto = Roboto({
+//   subsets: ['latin'],
+//   weight: ['900']
+// })
 export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <div>HEADER</div>
-        <HeroImage/>
+        <div className={styles.sectionOne}>
+          {/* <div className={`${roboto.className} ${styles.headerText}`}>Vestibulum at nibh at nulla faucibus dapibus</div> */}
+          <HeroImage/>  
+          <div className={styles.textContainer}>
+            <h1 className={styles.headerText}>Vestibulum at nibh at nulla</h1>
+            <p className={styles.subHeaderText}>Vivamus purus mi, mollis nec elit vel, scelerisque rhoncus dolor.</p>
+            <MyButton/>
+          </div>
+        </div>
 
         {/*
           Todo:

@@ -4,15 +4,22 @@
 }
 
 .container{
-  height: 101vw;
+  height: 100vh;
   border: 1px solid red;
   display: flex;
   justify-content: center;
 }
 
 .container {
-  height: 101vw;
+  /* height: 101vw; */
   border: 1px solid red;
+  display: flex;
+  width: 100%; /* Set the square width */
+  /* height: auto; */
+  overflow: hidden; /* Hide the excess parts */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sticky-child {
@@ -22,6 +29,5 @@
 }
 
 .image {
-    position: sticky;
-    top: 0;
+  object-fit: cover; /* Ensures cropping */
   }

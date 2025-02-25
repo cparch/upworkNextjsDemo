@@ -1,7 +1,6 @@
 .page {
   display: flex;
   flex-direction: column;
-  padding: 2vw;
   font-family: var(--font-geist-sans);
   border: 1px solid black;
 }
@@ -16,6 +15,36 @@
   .mainImg{
     width: 100%;
     height:auto;
+  }
+
+  .sectionOne {
+    background-color: #FFD3AC;
+    display: flex;
+    position: relative;
+  }
+
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 33%;
+    top: 45%;
+    right: 0%;
+    /* border: 1px solid springgreen; */
+    color: white;
+  }
+
+  .headerText{
+    font-size: 4vw;
+    /* text-align: center; */
+    line-height: .78em;
+  }
+  
+  .subHeaderText{
+    font-size: 1.5vw;
+    /* text-align: center; */
+    line-height: .78em;
+    margin-top: 3%;
   }
 
   .imgContainer{
