@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  border: 1px solid springgreen;
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+}

@@ -5,8 +5,11 @@ import ActionImage from "./components/actionImage/ActionImage"
 import CopyBox from "./components/copyBox/CopyBox";
 // import { Roboto } from '@next/font/google'
 import MyButton from "./components/button/Button";
+import BundleIcon from "./components/iconbundle/IconBundle";
 
-
+//Tomorrow get finish the:
+// - Icon section
+// - ActionImage component
 // const roboto = Roboto({
 //   subsets: ['latin'],
 //   weight: ['900']
@@ -23,6 +26,9 @@ export default function Home() {
             <p className={styles.subHeaderText}>Vivamus purus mi, mollis nec elit vel, scelerisque rhoncus dolor.</p>
             <MyButton/>
           </div>
+        </div>
+        <div className={styles.sectionTwo}>
+          <BundleIcon/>
         </div>
 
         {/*

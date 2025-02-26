@@ -54,6 +54,12 @@
   }
 }
 
+.sectionTwo {
+  display: flex;
+  background-color: #FFD3AC;
+  width: 100%;
+}
+
 .main ol {
   font-family: var(--font-geist-mono);
   padding-left: 0;
