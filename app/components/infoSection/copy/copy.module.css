@@ -1,0 +1,15 @@
+.mainContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #ffd3ac;
+  padding: 0% 10%;
+  
+  .copyContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    text-align: center;
+  }
+}
