@@ -3,10 +3,16 @@
   width: 100%;
   justify-content: space-around;
   border: 1px solid springgreen;
+  padding: 3vw 4vw;
 }
 
 .itemContainer {
   display: flex;
+  width: 30%;
   flex-direction: column;
   border: 1px solid red;
+
+  .header {
+    font-size: 1.5vw;
+  }
 }
